@@ -1,16 +1,13 @@
 @import "partials/variables";
 
+body {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
 ul {
   margin: 0px;
   padding: 10px;
-  background-color: $secondary-color;
   list-style-type: none;
-}
-
-li {
-  display: inline;
-  margin: 10px;
-  margin-right: 20px;
 }
 
 .navbar-link {
@@ -36,6 +33,16 @@ h2 {
   text-align: center;
 }
 
-footer {
-  background-color: $secondary-color;
+.bottom-container {
+  display: flex;
+}
+
+span {
+  font-size: 3em;
+  color: $primary-color;
+  display: block;
+}
+
+small {
+  color: $primary-color;
 }
