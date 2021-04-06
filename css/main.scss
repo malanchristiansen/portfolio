@@ -1,7 +1,9 @@
+@import "partials/variables";
+
 ul {
   margin: 0px;
   padding: 10px;
-  background-color: powderblue;
+  background-color: $secondary-color;
   list-style-type: none;
 }
 
@@ -13,26 +15,27 @@ li {
 
 .navbar-link {
   text-decoration: none;
+  color: $primary-color;
 }
 
 .navbar-link:hover {
-  color: green;
+  color: $third-color;
 }
 
 h1 {
   font-size: 50px;
-  color: blue;
+  color: $primary-color;
   margin: 10px;
   text-align: center;
 }
 
 h2 {
   font-size: 40px;
-  color: blue;
+  color: $primary-color;
   margin: 10px;
   text-align: center;
 }
 
 footer {
-  background-color: powderblue;
+  background-color: $secondary-color;
 }
