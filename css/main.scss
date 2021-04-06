@@ -1,0 +1,38 @@
+ul {
+  margin: 0px;
+  padding: 10px;
+  background-color: powderblue;
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+  margin-right: 20px;
+}
+
+.navbar-link {
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  color: green;
+}
+
+h1 {
+  font-size: 50px;
+  color: blue;
+  margin: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  color: blue;
+  margin: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: powderblue;
+}
