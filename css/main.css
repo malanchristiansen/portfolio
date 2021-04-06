@@ -1,5 +1,8 @@
-body {
-  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+.body {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#dfe9f3), to(white));
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  height: 100vh;
+  width: 100vw;
 }
 
 ul {
@@ -20,30 +23,39 @@ ul {
 h1 {
   font-size: 50px;
   color: #37474f;
-  margin: 10px;
+  margin: 0px;
   text-align: center;
 }
 
 h2 {
   font-size: 40px;
   color: #37474f;
-  margin: 10px;
+  margin: 0px;
   text-align: center;
 }
 
 .bottom-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-span {
+.bottom-container span {
   font-size: 3em;
   color: #37474f;
   display: block;
 }
 
-small {
+.bottom-container small {
   color: #37474f;
 }
 /*# sourceMappingURL=main.css.map */

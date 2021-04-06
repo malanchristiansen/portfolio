@@ -1,7 +1,10 @@
 @import "partials/variables";
+@import "partials/contact";
 
-body {
-  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+.body {
+  background-image: $bkgn-color;
+  height: 100vh;
+  width: 100vw;
 }
 
 ul {
@@ -22,27 +25,30 @@ ul {
 h1 {
   font-size: 50px;
   color: $primary-color;
-  margin: 10px;
+  margin: 0px;
   text-align: center;
 }
 
 h2 {
   font-size: 40px;
   color: $primary-color;
-  margin: 10px;
+  margin: 0px;
   text-align: center;
 }
 
 .bottom-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   display: flex;
-}
-
-span {
-  font-size: 3em;
-  color: $primary-color;
-  display: block;
-}
-
-small {
-  color: $primary-color;
+  justify-content: flex-end;
+  align-items: center;
+  span {
+    font-size: 3em;
+    color: $primary-color;
+    display: block;
+  }
+  small {
+    color: $primary-color;
+  }
 }
