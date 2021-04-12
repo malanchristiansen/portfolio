@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .body {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#dfe9f3), to(white));
   background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
@@ -114,28 +121,23 @@ h3 {
   left: 175px;
 }
 
-.bottom-container {
+aside {
+  float: right;
+}
+
+aside ul {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+aside ul .fa-clickable {
+  cursor: pointer;
+}
+
+.signature {
   position: absolute;
-  bottom: 0;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.bottom-container span {
-  font-size: 3em;
-  color: #37474f;
-  display: block;
-}
-
-.bottom-container small {
-  color: #37474f;
+  bottom: 10px;
+  left: 45%;
+  font-size: 12px;
 }
 /*# sourceMappingURL=main.css.map */

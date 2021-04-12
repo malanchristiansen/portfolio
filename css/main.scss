@@ -1,6 +1,12 @@
 @import "partials/variables";
 @import "partials/contact";
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .body {
   background-image: $bkgn-color;
   height: 100vh;
@@ -109,19 +115,37 @@ h3 {
 
 // footer
 
-.bottom-container {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  span {
-    font-size: 3em;
-    color: $primary-color;
-    display: block;
-  }
-  small {
-    color: $primary-color;
+aside {
+  float: right;
+  ul {
+    list-style-type: none;
+    margin-right: 10px;
+    .fa-clickable {
+      cursor: pointer;
+    }
   }
 }
+
+.signature {
+  position: absolute;
+  bottom: 10px;
+  left: 45%;
+  font-size: 12px;
+}
+
+// .bottom-container {
+//   position: absolute;
+//   bottom: 0;
+//   width: 100%;
+//   display: flex;
+//   justify-content: flex-end;
+//   align-items: center;
+//   span {
+//     font-size: 3em;
+//     color: $primary-color;
+//     display: block;
+//   }
+//   small {
+//     color: $primary-color;
+//   }
+// }
