@@ -122,6 +122,10 @@ aside {
     margin-right: 10px;
     .fa-clickable {
       cursor: pointer;
+      text-decoration: none;
+      color: $primary-color;
+      font-size: 1.5em;
+      margin: 2px 1px;
     }
   }
 }
@@ -132,20 +136,3 @@ aside {
   left: 45%;
   font-size: 12px;
 }
-
-// .bottom-container {
-//   position: absolute;
-//   bottom: 0;
-//   width: 100%;
-//   display: flex;
-//   justify-content: flex-end;
-//   align-items: center;
-//   span {
-//     font-size: 3em;
-//     color: $primary-color;
-//     display: block;
-//   }
-//   small {
-//     color: $primary-color;
-//   }
-// }
