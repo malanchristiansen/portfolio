@@ -7,6 +7,8 @@
   width: 100vw;
 }
 
+// Navbar
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -40,6 +42,8 @@ nav {
   }
 }
 
+// main section
+
 h1 {
   font-size: 65px;
   color: $primary-color;
@@ -65,19 +69,45 @@ h3 {
   position: relative;
   right: 146px;
   top: 132px;
+  transition: 00.3s;
+}
+
+.box-h1:hover {
+  cursor: pointer;
+  color: $third-color;
+  font-size: 80px;
 }
 
 .box-h2 {
   position: relative;
   top: 136px;
   right: 47px;
+  transition: 00.3s;
+}
+
+.box-h2:hover {
+  cursor: pointer;
+  color: $third-color;
+  font-size: 80px;
 }
 
 .box-h3 {
   position: relative;
   top: 138px;
   left: 120px;
+  transition: 00.3s;
 }
+
+.box-h3:hover {
+  cursor: pointer;
+  color: $third-color;
+  font-size: 80px;
+  transform: rotate(-25deg);
+  top: 155px;
+  left: 175px;
+}
+
+// footer
 
 .bottom-container {
   position: absolute;
