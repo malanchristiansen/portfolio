@@ -132,6 +132,10 @@ aside ul {
 
 aside ul .fa-clickable {
   cursor: pointer;
+  text-decoration: none;
+  color: #37474f;
+  font-size: 1.5em;
+  margin: 2px 1px;
 }
 
 .signature {
