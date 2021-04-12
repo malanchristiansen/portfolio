@@ -7,19 +7,37 @@
   width: 100vw;
 }
 
-ul {
-  margin: 0px;
-  padding: 10px;
-  list-style-type: none;
-}
+nav {
+  display: flex;
+  justify-content: space-between;
 
-.navbar-link {
-  text-decoration: none;
-  color: $primary-color;
-}
+  ul {
+    width: 100vw;
+  }
 
-.navbar-link:hover {
-  color: $third-color;
+  ul,
+  li {
+    margin: 0px;
+    padding: 10px;
+    list-style-type: none;
+    display: inline;
+
+    .home {
+      float: left;
+    }
+
+    .main-nav {
+      float: right;
+    }
+    .navbar-link {
+      text-decoration: none;
+      color: $primary-color;
+    }
+
+    .navbar-link:hover {
+      color: $third-color;
+    }
+  }
 }
 
 h1 {

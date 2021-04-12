@@ -5,18 +5,45 @@
   width: 100vw;
 }
 
-ul {
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav ul {
+  width: 100vw;
+}
+
+nav ul,
+nav li {
   margin: 0px;
   padding: 10px;
   list-style-type: none;
+  display: inline;
 }
 
-.navbar-link {
+nav ul .home,
+nav li .home {
+  float: left;
+}
+
+nav ul .main-nav,
+nav li .main-nav {
+  float: right;
+}
+
+nav ul .navbar-link,
+nav li .navbar-link {
   text-decoration: none;
   color: #37474f;
 }
 
-.navbar-link:hover {
+nav ul .navbar-link:hover,
+nav li .navbar-link:hover {
   color: #62727b;
 }
 
