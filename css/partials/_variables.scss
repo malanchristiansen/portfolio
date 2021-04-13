@@ -1,4 +1,7 @@
-$primary-color: #37474f;
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
+
+$primary-color: #dbe4e9;
 $secondary-color: #102027;
 $third-color: #62727b;
-$bkgn-color: linear-gradient(to top, #dfe9f3 0%, white 100%);
+$bkgn-color: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+$primary-text: "Dosis", sans-serif;

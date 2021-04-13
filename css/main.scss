@@ -7,21 +7,22 @@
   box-sizing: border-box;
 }
 
-.body {
-  background-image: $bkgn-color;
+body {
+  background: $bkgn-color;
   height: 100vh;
   width: 100vw;
 }
 
 // Navbar
 
-nav {
+nav ul {
   display: flex;
-  justify-content: space-between;
+  font-size: 18px;
+}
 
-  ul {
-    width: 100vw;
-  }
+ul {
+  flex-direction: row;
+  justify-content: center;
 
   ul,
   li {
@@ -29,47 +30,56 @@ nav {
     padding: 10px;
     list-style-type: none;
     display: inline;
+  }
 
-    .home {
-      float: left;
-    }
+  .navbar-link {
+    text-decoration: none;
+    color: $primary-color;
+  }
 
-    .main-nav {
-      float: right;
-    }
-    .navbar-link {
-      text-decoration: none;
-      color: $primary-color;
-    }
-
-    .navbar-link:hover {
-      color: $third-color;
-    }
+  .navbar-link:hover {
+    color: $third-color;
   }
 }
 
 // main section
+// .container {
+//   display: flex;
+//   width: 100%;
+//   height: 300px;
+//   border: 1px solid red;
+//   .box {
+//     width: 100px;
+//     height: 100px;
+//     margin: 5px;
+//     background: lightblue;
+//   }
 
-h1 {
+h1,
+h2,
+h3 {
   font-size: 65px;
   color: $primary-color;
   margin: 0px;
   text-align: center;
+  font-family: $primary-text;
 }
 
-h2 {
-  font-size: 60px;
-  color: $primary-color;
-  margin: 0px;
-  text-align: center;
-}
+// h2 {
+//   font-size: 60px;
+//   color: $primary-color;
+//   margin: 0px;
+//   text-align: center;
+//   font-family: $primary-text;
+// }
 
-h3 {
-  font-size: 58px;
-  color: $primary-color;
-  margin: 0px;
-  text-align: center;
-}
+// h3 {
+//   font-size: 58px;
+//   color: $primary-color;
+//   margin: 0px;
+//   text-align: center;
+//   font-family: $primary-text;
+// }
 
 .box-h1 {
   position: relative;
@@ -108,26 +118,43 @@ h3 {
   cursor: pointer;
   color: $third-color;
   font-size: 80px;
-  transform: rotate(-25deg);
   top: 155px;
   left: 175px;
 }
 
 // footer
 
-aside {
-  float: right;
-  ul {
-    list-style-type: none;
-    margin-right: 10px;
-    .fa-clickable {
-      cursor: pointer;
-      text-decoration: none;
-      color: $primary-color;
-      font-size: 1.5em;
-      margin: 2px 1px;
-    }
-  }
+// aside {
+//   float: right;
+//   ul {
+//     list-style-type: none;
+//     margin-right: 10px;
+//     .fa-clickable {
+//       cursor: pointer;
+//       text-decoration: none;
+//       color: $primary-color;
+//       font-size: 1.5em;
+//       margin: 2px 1px;
+//     }
+//   }
+// }
+
+// nav ul {
+//   display: flex;
+//   font-size: 18px;
+// }
+
+// ul {
+//   flex-direction: row;
+//   justify-content: center;
+
+.container-icons {
+  display: flex;
+}
+
+.icons {
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .signature {
@@ -151,7 +178,6 @@ aside {
   ul {
     flex-direction: column;
     align-items: center;
-    padding: 2px;
   }
 
   nav li {
@@ -192,6 +218,45 @@ aside {
     position: absolute;
     bottom: 10px;
     left: 30%;
+    font-size: 10px;
+  }
+}
+
+// responsive design for tablets
+@media only screen and (max-width: 769px) {
+  nav ul {
+    display: flex;
+    font-size: 18px;
+  }
+
+  ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  nav li {
+    padding: 2px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-size: 30px;
+  }
+
+  aside {
+    position: absolute;
+    bottom: 30px;
+    left: 42%;
+    li {
+      display: inline;
+    }
+  }
+
+  .signature {
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
     font-size: 10px;
   }
 }
