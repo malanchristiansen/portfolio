@@ -1,11 +1,22 @@
-.container-about {
+// about me section
+.row {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  min-height: 250px;
 }
 
-.profile-photo {
-  width: 200px;
-  height: 200px;
+.container {
+  margin: 31px 100px;
+}
+
+#profile img {
+  width: 60%;
+  float: right;
+}
+
+#hello {
+  border: 1px solid red;
 }
 
 .hello,
@@ -26,10 +37,14 @@
   font-size: 15px;
 }
 
-.container-about-me {
-  display: flex;
-  justify-content: center;
-  width: 50vw;
-  height: 300px;
+//  next section
+
+.container-text {
   border: 1px solid red;
+}
+
+#profile-text p {
+  margin: 20px;
+  color: white;
+  //   text-align: justify;
 }
