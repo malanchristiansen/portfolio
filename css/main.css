@@ -1,16 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
-.container-about {
+.row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-height: 250px;
 }
 
-.profile-photo {
-  width: 200px;
-  height: 200px;
+.container {
+  margin: 0 100px;
+}
+
+#profile img {
+  width: 60%;
+  float: right;
+}
+
+#hello {
+  border: 1px solid red;
 }
 
 .hello,
@@ -31,16 +42,9 @@
   font-size: 15px;
 }
 
-.container-about-me {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 50vw;
-  height: 300px;
-  border: 1px solid red;
+#profile-text p {
+  margin: 20px;
+  color: white;
 }
 
 * {
@@ -120,55 +124,88 @@ footer {
 
 /* responsive media queries */
 /* For mobile phones: */
-@media screen and (max-width: 600px) {
-  nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    font-size: 12px;
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {
+    width: 8.33%;
   }
-  ul {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  .col-s-2 {
+    width: 16.66%;
   }
-  nav li {
-    padding: 2px;
+  .col-s-3 {
+    width: 25%;
   }
-  h1,
-  h2,
-  h3 {
-    font-size: 40px;
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
   }
 }
 
-@media only screen and (max-width: 769px) {
-  nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    font-size: 18px;
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
   }
-  ul {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  .col-2 {
+    width: 16.66%;
   }
-  nav li {
-    padding: 2px;
+  .col-3 {
+    width: 25%;
   }
-  h1,
-  h2,
-  h3 {
-    font-size: 35px;
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */
