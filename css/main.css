@@ -12,7 +12,7 @@
 }
 
 .container {
-  margin: 0 100px;
+  margin: 31px 100px;
 }
 
 #profile img {
@@ -42,9 +42,43 @@
   font-size: 15px;
 }
 
+.container-text {
+  border: 1px solid red;
+}
+
 #profile-text p {
   margin: 20px;
   color: white;
+}
+
+#projects {
+  background-color: #eee;
+  margin: 20px;
+}
+
+.project-title {
+  text-align: center;
+  font-size: 3em;
+  padding: 20px;
+}
+
+#projects h2 {
+  margin: 20px;
+  text-align: center;
+}
+
+#launch {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.project {
+  background: white;
+  margin: 10px;
+}
+
+.project img {
+  width: 100%;
 }
 
 * {
@@ -95,9 +129,9 @@ ul .navbar-link:hover {
   color: #62727b;
 }
 
-h1,
-h2,
-h3 {
+.box-h1,
+.box-h2,
+.box-h3 {
   font-size: 65px;
   color: #dbe4e9;
   margin: 0px;
@@ -122,8 +156,6 @@ footer {
           justify-content: space-evenly;
 }
 
-/* responsive media queries */
-/* For mobile phones: */
 /* For mobile phones: */
 [class*="col-"] {
   width: 100%;
