@@ -1,0 +1,35 @@
+.container-about {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+}
+
+.hello,
+.name,
+.title {
+  text-align: left;
+}
+
+.hello {
+  font-size: 20px;
+}
+
+.name {
+  font-size: 40px;
+}
+
+.title {
+  font-size: 15px;
+}
+
+.container-about-me {
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+  height: 300px;
+  border: 1px solid red;
+}
