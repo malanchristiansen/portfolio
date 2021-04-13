@@ -1,4 +1,48 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
+.container-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+}
+
+.hello,
+.name,
+.title {
+  text-align: left;
+}
+
+.hello {
+  font-size: 20px;
+}
+
+.name {
+  font-size: 40px;
+}
+
+.title {
+  font-size: 15px;
+}
+
+.container-about-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50vw;
+  height: 300px;
+  border: 1px solid red;
+}
+
 * {
   margin: 0;
   padding: 0;
