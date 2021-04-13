@@ -157,12 +157,26 @@ h3 {
   justify-content: flex-end;
 }
 
-.signature {
+footer {
   position: absolute;
-  bottom: 10px;
-  left: 45%;
-  font-size: 12px;
+  bottom: 5px;
+  width: 100vw;
 }
+
+.container-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-icons a {
+  flex-shrink: 3;
+}
+// .container-icons {
+//   min-height: 450px;
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: flex-end;
+// }
 
 // Responsive design
 
