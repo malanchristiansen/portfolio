@@ -7,44 +7,42 @@
 }
 
 .container {
-  margin: 31px 100px;
+  margin: 50px 100px;
 }
 
 #profile img {
   width: 60%;
   float: right;
+  margin-right: 40px;
 }
 
 #hello {
-  border: 1px solid red;
+  // border: 1px solid red;
 }
 
 .hello,
 .name,
 .title {
-  text-align: left;
+  // text-align: center;
 }
 
 .hello {
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .name {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .title {
-  font-size: 15px;
+  font-size: 19px;
 }
 
-//  next section
-
-.container-text {
-  border: 1px solid red;
+.base {
+  font-size: 23px;
 }
 
-#profile-text p {
-  margin: 20px;
-  color: white;
-  //   text-align: justify;
+.download {
+  font-size: 14px;
+  margin: 5px 5px 5px 0px;
 }
