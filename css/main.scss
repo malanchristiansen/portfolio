@@ -47,14 +47,11 @@ ul {
 }
 // main section
 
-.welcome {
-  // font-family: $primary-text;
-}
 .box-h1,
 .box-h2,
 .box-h3 {
   text-align: center;
-  color: $third-color;
+  color: $primary-color;
   position: relative;
   top: 80px;
   font-size: 35px;
@@ -63,7 +60,7 @@ ul {
 
 .box-h4 {
   text-align: center;
-  color: $primary-color;
+  color: $third-color;
   font-size: 18px;
   position: relative;
   top: 150px;

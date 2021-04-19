@@ -391,7 +391,7 @@ footer {
   font-family: "Nunito Sans", sans-serif;
   color: #dbe4e9;
   text-align: center;
-  margin-top: 15%;
+  margin-top: 8%;
   font-size: 35px;
 }
 
@@ -469,7 +469,7 @@ footer {
   }
   .touch {
     font-size: 55px;
-    margin-top: 10%;
+    margin-top: 5%;
   }
   .contact-box {
     font-size: 0.8em;
@@ -540,7 +540,7 @@ footer {
   }
   .touch {
     font-size: 65px;
-    margin-top: 10%;
+    margin-top: 7%;
   }
 }
 
@@ -597,7 +597,7 @@ ul .navbar-link:hover {
 .box-h2,
 .box-h3 {
   text-align: center;
-  color: #62727b;
+  color: #dbe4e9;
   position: relative;
   top: 80px;
   font-size: 35px;
@@ -606,7 +606,7 @@ ul .navbar-link:hover {
 
 .box-h4 {
   text-align: center;
-  color: #dbe4e9;
+  color: #62727b;
   font-size: 18px;
   position: relative;
   top: 150px;
