@@ -504,7 +504,7 @@
   background-color: #fff;
   font-size: 0.5em;
   text-align: center;
-  margin: 12%;
+  margin: 14%;
   padding: 5%;
   border-radius: 5px;
   color: #62727b;
@@ -704,6 +704,10 @@ ul .navbar-link:hover {
   color: #62727b;
 }
 
+.welcome {
+  min-height: 350px;
+}
+
 .box-h1,
 .box-h2,
 .box-h3 {
@@ -740,6 +744,9 @@ ul .navbar-link:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -796,6 +803,9 @@ ul .navbar-link:hover {
   }
   .col-s-12 {
     width: 100%;
+  }
+  .welcome {
+    min-height: 500px;
   }
   .box-h1,
   .box-h2,
