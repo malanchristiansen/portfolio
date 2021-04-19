@@ -65,6 +65,22 @@
   margin: 20px;
 }
 
+// bottom page
+
+.bottom-icons {
+  display: flex;
+  justify-content: center;
+  // margin-bottom: 5%;
+  a {
+    padding: 2%;
+    text-decoration: none;
+    color: $third-color;
+  }
+  a:hover {
+    color: $primary-color;
+  }
+}
+
 // media break point
 
 /* For mobile phones: */
@@ -124,6 +140,15 @@
   #hello {
     text-align: left;
     margin-top: 0px;
+  }
+  .bottom-icons {
+    position: absolute;
+    // bottom: 0%;
+    margin: 5%;
+    padding-left: 40%;
+    a {
+      padding: 10%;
+    }
   }
 }
 @media only screen and (min-width: 769px) {
@@ -200,5 +225,15 @@
 
   #skills-icons {
     margin: 0px 10%;
+  }
+
+  .bottom-icons {
+    position: absolute;
+    // bottom: 0%;
+    margin: 5%;
+    padding-left: 45%;
+    a {
+      padding: 10%;
+    }
   }
 }

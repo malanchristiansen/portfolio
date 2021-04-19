@@ -64,19 +64,31 @@ ul {
   font-size: 18px;
   position: relative;
   top: 150px;
+
+  a {
+    text-decoration: none;
+    color: $primary-color;
+    font-weight: bold;
+  }
 }
 
 // bottom page
 
-.frontpage-icons {
+.contact-icons {
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 10%;
+  // margin-top: 55%;
 
   a {
     padding: 20px;
+    text-decoration: none;
+    color: $third-color;
+  }
+
+  a:hover {
+    color: $primary-color;
   }
 }
 
@@ -131,8 +143,8 @@ ul {
   .box-h4 {
     font-size: 1.7em;
   }
-  .frontpage-icons {
-    margin-bottom: 20%;
+  .contact-icons {
+    // margin-top: 35%;
   }
 }
 @media only screen and (min-width: 769px) {
@@ -183,9 +195,9 @@ ul {
   .box-h4 {
     font-size: 1.5em;
   }
-  .frontpage-icons {
+  .contact-icons {
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 7.5%;
+    // margin-top: 20%;
   }
 }
