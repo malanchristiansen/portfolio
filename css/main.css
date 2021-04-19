@@ -130,7 +130,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   /* For desktop: */
   .col-1 {
     width: 8.33%;
@@ -234,34 +234,157 @@
   width: 100%;
 }
 
+#blog-section {
+  color: #62727b;
+  text-align: center;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 #blogs {
   background-color: #eee;
-  margin: 20px;
-}
-
-.blog-title {
-  text-align: center;
-  font-size: 3em;
+  margin: 15px 15%;
   padding: 20px;
+  border-radius: 5px;
 }
 
-#blogs h2 {
-  margin: 20px;
+#blogs img {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.text {
   text-align: center;
+  margin: 5%;
+  color: #62727b;
 }
 
-#visit {
-  text-align: center;
-  padding-bottom: 10px;
+.text #date {
+  margin-top: 8px;
 }
 
-.blog {
-  background: white;
-  margin: 10px;
+.text a {
+  position: relative;
+  bottom: -10px;
+  padding: 33%;
 }
 
-.blog img {
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+}
+
+.container-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
   width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  .text {
+    text-align: left;
+    margin: 0%;
+  }
+  .text a {
+    padding: 0%;
+  }
 }
 
 .touch {
@@ -431,7 +554,7 @@
 body {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#48c6ef), to(#6f86d6));
   background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   font-family: "Nunito Sans", sans-serif;
 }
