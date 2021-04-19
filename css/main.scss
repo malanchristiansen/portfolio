@@ -47,29 +47,40 @@ ul {
 }
 // main section
 
+.welcome {
+  // font-family: $primary-text;
+}
 .box-h1,
 .box-h2,
 .box-h3 {
-  font-size: 65px;
-  color: $primary-color;
-  margin: 0px;
   text-align: center;
-  font-family: $primary-text;
+  color: $third-color;
   position: relative;
   top: 80px;
+  font-size: 35px;
+  margin: -2%;
 }
 
-// footer
-
-footer {
-  position: absolute;
-  bottom: 5px;
-  width: 100vw;
+.box-h4 {
+  text-align: center;
+  color: $primary-color;
+  font-size: 18px;
+  position: relative;
+  top: 150px;
 }
 
-.container-icons {
+// bottom page
+
+.frontpage-icons {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10%;
+
+  a {
+    padding: 20px;
+  }
 }
 
 /* For mobile phones: */
@@ -115,6 +126,17 @@ footer {
   .col-s-12 {
     width: 100%;
   }
+  .box-h1,
+  .box-h2,
+  .box-h3 {
+    font-size: 3em;
+  }
+  .box-h4 {
+    font-size: 1.7em;
+  }
+  .frontpage-icons {
+    margin-bottom: 20%;
+  }
 }
 @media only screen and (min-width: 769px) {
   /* For desktop: */
@@ -153,5 +175,20 @@ footer {
   }
   .col-12 {
     width: 100%;
+  }
+
+  .box-h1,
+  .box-h2,
+  .box-h3 {
+    font-size: 3.5em;
+    margin: -1%;
+  }
+  .box-h4 {
+    font-size: 1.5em;
+  }
+  .frontpage-icons {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 7.5%;
   }
 }
