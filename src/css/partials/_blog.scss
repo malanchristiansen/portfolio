@@ -34,6 +34,11 @@
     position: relative;
     bottom: -10px;
     padding: 33%;
+    text-decoration: none;
+    color: $secondary-color;
+  }
+  a:hover {
+    color: $primary-color;
   }
 }
 

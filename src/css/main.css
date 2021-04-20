@@ -423,6 +423,12 @@
   position: relative;
   bottom: -10px;
   padding: 33%;
+  text-decoration: none;
+  color: #48c6ef;
+}
+
+.text a:hover {
+  color: #dbe4e9;
 }
 
 /* For mobile phones: */
