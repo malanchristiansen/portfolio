@@ -20,6 +20,13 @@
 #launch {
   text-align: center;
   padding-bottom: 10px;
+  a {
+    text-decoration: none;
+    color: $secondary-color;
+  }
+  a:hover {
+    color: $primary-color;
+  }
 }
 
 .project {

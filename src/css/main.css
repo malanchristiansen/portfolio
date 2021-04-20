@@ -285,6 +285,15 @@
   padding-bottom: 10px;
 }
 
+#launch a {
+  text-decoration: none;
+  color: #48c6ef;
+}
+
+#launch a:hover {
+  color: #dbe4e9;
+}
+
 .project {
   background: white;
   margin: 30px;
