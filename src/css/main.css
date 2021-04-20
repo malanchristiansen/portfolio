@@ -21,6 +21,11 @@
   border-radius: 10px;
 }
 
+#profile img:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
 #hello {
   color: #62727b;
   text-align: center;
@@ -48,6 +53,15 @@
   margin: 5px 5px 5px 0px;
 }
 
+.download a {
+  color: #dbe4e9;
+  text-decoration: none;
+}
+
+.download a:hover {
+  color: #fff;
+}
+
 #skills-section {
   text-align: center;
   color: #62727b;
@@ -68,6 +82,11 @@
 
 #skills .fab {
   margin: 20px;
+}
+
+#skills .fab:hover {
+  cursor: pointer;
+  color: #62727b;
 }
 
 .bottom-icons {
@@ -142,6 +161,12 @@
   }
   #profile img {
     width: 80%;
+  }
+  .download a {
+    color: #48c6ef;
+  }
+  .download a:hover {
+    color: #fff;
   }
   #hello {
     text-align: left;
