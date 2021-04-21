@@ -4,13 +4,13 @@
 
 ## Github: [repository](https://github.com/malanchristiansen/portfolio)
 
-# Welcome to my portfolio page!
+# Welcome to my portfolio assignment!
 
 ### Description
 
 - **Purpose:**
 
-  - This portfolio assignment is created to utilised my skills learned in the first part of the web developmnet bootcamp with Coder Academy 2021
+  - This portfolio assignment is created to utilise my skills learned in the first part of the web developmnet bootcamp with Coder Academy 2021
 
 - **Functionality / features:**
   - There will be 4 functionalities showing the homepage, a section about me including my resume, a blog session for posting when I continue my journey as a developer. Lastly, there will be a contact page for potential employers to reach out.
