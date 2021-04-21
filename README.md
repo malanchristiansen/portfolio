@@ -10,38 +10,40 @@
 
 - **Purpose:**
 
-  - This portfolio assignment is created to utilise my skills learned in the first part of the web developmnet bootcamp with Coder Academy 2021
+  - This portfolio assignment is created to utilise my skills learned in the first part of the web developmnet bootcamp with Coder Academy 2021. I will demonstrate my capabilities to build a portfolio website in html and css.
 
-- **Functionality / features:**
-  - There will be 4 functionalities showing the homepage, a section about me including my resume, a blog session for posting when I continue my journey as a developer. Lastly, there will be a contact page for potential employers to reach out.
+- **Features:**
+
+  - **Home:** Navbar, big clickable icons for LinkedIn, GitHub, Email
+  - **About:** Navbar, profile picture, link to resume, footer with icons
+  - **Projects:** Navbar, Cards incl. image, project explanation, link to project, footer with icons
+  - **Blog:** Navbar, Cards incl. image, post, date, link to post, footer with icons
+  - **Contact:** Navbar, Box with name and address, Big clickable icons for LinkedIn, GitHub, Email
+
 - **Sitemap:**
 
   - Overview of website: ![site-overview](/docs/overview-website.png)
 
 - **Screenshots:**
 
-  - Homepage: _(web and mobile view)_
-    ![homepage-web](/docs/homepage-web.png)
+  - Homepage:
+    ![homepage](/docs/homepage.png)
 
-    ![homepage-mobile](/docs/homepage-mobile.png)
+  - About:
+    ![about](/docs/about.png)
 
-  - About me: _(Web view)_
-    ![about-web](/docs/about-web.png)
+  - Projects:
+    ![projects](/docs/projects.png)
 
-  - Projects: _(Web view)_
-    ![projects-web](/docs/project-web.png)
+  - Blog:
+    ![blog](/docs/blog.png)
 
-  - Blog: _(iPad view)_
-    ![blog-iPad](/docs/blog-ipad.png)
-
-  - Contact: _(web and mobile view)_
-    ![contact-web](/docs/contact-web.png)
-
-    ![contact-mobile](/docs/contact-mobile.png)
+  - Contact:
+    ![contact](/docs/contact.png)
 
 - **Target audience:**
 
-  - Target audience is for potential employers who are looking for developers and want to view my profile and projects.
+  - This website is created to cater towards potential employers who are looking for a webdeveloper. This website will show my profile, future projects, and how to get in contact with me.
 
 - **Tech stack:**
-  - HTML, CSS, Sass, Netlify, Git, Github, Balsamic,
+  - HTML, CSS, Sass, Netlify, Git, Github, Balsamic
