@@ -1,4 +1,5 @@
 // Top page
+// Styling heading
 
 .touch {
   font-family: $primary-text;
@@ -19,6 +20,7 @@
 }
 
 // bottom page
+// Stying big clickable icons
 
 .contact-icons {
   display: flex;
@@ -37,6 +39,8 @@
     color: $primary-color;
   }
 }
+
+// Media break points
 
 /* For mobile phones: */
 [class*="col-"] {
