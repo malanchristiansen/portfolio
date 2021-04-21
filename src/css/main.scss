@@ -4,12 +4,14 @@
 @import "partials/blog";
 @import "partials/contact";
 
+// Resetting basic layout structure
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+// Giving a gradient background color and setting main font style
 body {
   background-image: $bkgn-color;
   min-height: 100vh;
@@ -18,6 +20,7 @@ body {
 }
 
 // Navbar
+// Making a general nav bar for all pages
 
 nav ul {
   display: flex;
@@ -46,6 +49,8 @@ ul {
   }
 }
 // main section
+
+// styling for homepage with headings and links
 
 .welcome {
   min-height: 350px;
@@ -77,6 +82,7 @@ ul {
 }
 
 // bottom page
+// styling the big clickable contact icons
 
 .contact-icons {
   display: flex;
@@ -96,6 +102,9 @@ ul {
     color: $primary-color;
   }
 }
+
+// Media break points
+// Setting teh general media breakpoints for mobile, tablet, and desktop
 
 /* For mobile phones: */
 [class*="col-"] {

@@ -1,3 +1,6 @@
+// Main section
+// Styling cards with project explanations and images
+
 #projects {
   background-color: #eee;
   margin: 20px;
@@ -40,6 +43,8 @@
   background-color: #ddd;
 }
 
+// image
+
 .project img {
   width: 100%;
   // min-height: 350px;
@@ -50,6 +55,7 @@
 .project img:hover {
   filter: grayscale(70%);
 }
+
 // Media break points
 
 /* For mobile phones: */
