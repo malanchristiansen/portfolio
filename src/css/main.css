@@ -62,10 +62,15 @@
   color: #fff;
 }
 
+#skills {
+  margin-top: 5%;
+}
+
 #skills-section {
   text-align: center;
   color: #62727b;
   font-size: 20px;
+  padding: 5px;
 }
 
 #skills-icons {
@@ -96,6 +101,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 5%;
 }
 
 .bottom-icons a {
@@ -229,6 +235,7 @@
   }
   .color-container {
     background-color: #eee;
+    min-height: 550px;
     padding: 20px;
     margin: 8 15%;
     border-radius: 5px;
