@@ -32,13 +32,24 @@
 .project {
   background: white;
   margin: 30px;
-  //   min-height: 250px;
+  border-radius: 5px;
+  // min-height: 450px;
+}
+
+.project:hover {
+  background-color: #ddd;
 }
 
 .project img {
   width: 100%;
+  // min-height: 350px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
+.project img:hover {
+  filter: grayscale(70%);
+}
 // Media break points
 
 /* For mobile phones: */

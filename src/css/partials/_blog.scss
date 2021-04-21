@@ -16,11 +16,19 @@
   border-radius: 5px;
 }
 
+#blogs:hover {
+  background-color: #ddd;
+}
+
 #blogs img {
   width: 90%;
   display: block;
   margin: 0 auto;
   border-radius: 5px;
+}
+
+#blogs img:hover {
+  filter: grayscale(70%);
 }
 
 .text {
@@ -43,10 +51,6 @@
 }
 
 // footer
-
-.bottom-icons {
-  // margin-bottom: 1%;
-}
 
 /* For mobile phones: */
 [class*="col-"] {
